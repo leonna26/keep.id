@@ -51,6 +51,15 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 187% */
+    /* Black */
+    color: #212529;
+}
+
 fieldset1 {
     position: absolute;
     width: 766px;
