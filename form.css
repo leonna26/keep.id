@@ -1,3 +1,15 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
 .border {
     position: absolute;
     width: 766px;
@@ -24,12 +36,23 @@
     height: 37px;
     left: 924px;
     top: 1297px;
+    color: white;
+    font-weight: 600;
     /* Primary Purple */
     background: #7B81FF;
     /* Primary Purple */
     border: 1px solid #7B81FF;
     box-sizing: border-box;
     border-radius: 4px;
+}
+
+.btn-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    /* identical to box height, or 131% */
+    color: #FFFFFF;
 }
 
 h1 {
