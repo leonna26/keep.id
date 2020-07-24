@@ -5,14 +5,19 @@
     <meta charset="utf-8">
     <title>Form page</title>
     <link rel="stylesheet" type="text/css" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
     <div class="border"></div>
-    <h1>Sample Housing Form</h1>
+    <fieldset1>
+        <h1>Sample Housing Form</h1>
+    </fieldset1>
     <form action="/action_page.php">
 
-        <fieldset1>
+        <fieldset2>
             <label for="text">First Name</label><br>
             <input type="text" id="fname" name="fname" value="First Name"><br>
             <label for="text">Last name</label><br>
@@ -22,9 +27,9 @@
             <label for="text">Date of Birth</label><br>
             <input type="text" value="MM/DD/YYYY"><br>
             <p>Date should be in MM/DD/YYYY format.</p>
-        </fieldset1>
+        </fieldset2>
 
-        <fieldset2>
+        <fieldset3>
             <label for="text">Current living situation</label><br>
             <p>Sample subtitle text</p>
             <input type="checkbox">
@@ -33,9 +38,9 @@
             <label for="opt2"> Emergency shelter</label><br>
             <input type="checkbox">
             <label for="opt3"> Transitional housing</label><br><br>
-        </fieldset2>
+        </fieldset3>
 
-        <fieldset3>
+        <fieldset4>
             <label for="text">What kind of transportation do you use?</label><br>
             <p>Sample subtitle text</p>
             <input list="options">
@@ -47,23 +52,23 @@
     <option value="Uber">
   </datalist>
 
-        </fieldset3>
+        </fieldset4>
 
-        <fieldset4>
+        <fieldset5>
             <label for="text">What kind of transportation do you use?</label><br>
             <p>Sample subtitle text</p>
             <input type="radio"> Bus<br>
             <input type="radio"> Train<br>
             <input type="radio"> Car
 
-        </fieldset4>
+        </fieldset5>
 
 
 
 
 
         <div class="bottomborder"></div>
-
+        <div class="btn-primary">Continue</div>
 </body>
 
 </html>

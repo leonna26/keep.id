@@ -18,12 +18,26 @@
     border-radius: 4px;
 }
 
+.btn-primary {
+    position: absolute;
+    width: 122px;
+    height: 37px;
+    left: 924px;
+    top: 1297px;
+    /* Primary Purple */
+    background: #7B81FF;
+    /* Primary Purple */
+    border: 1px solid #7B81FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
 h1 {
     position: absolute;
     width: 318px;
     height: 36px;
-    left: 526px;
-    top: 154px;
+    left: 246px;
+    /* top: 154px; */
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -31,6 +45,10 @@ h1 {
     line-height: 30px;
     /* or 100% */
     color: #000000;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
 }
 
 fieldset1 {
@@ -94,6 +112,13 @@ fieldset5 {
     height: 136px;
     left: 280px;
     top: 820px;
+    border: 1px solid #7B81FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input {
+    position: absolute;
     border: 1px solid #7B81FF;
     box-sizing: border-box;
     border-radius: 4px;
