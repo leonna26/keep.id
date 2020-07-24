@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Form page</title>
+</head>
+
+<body>
+    <h1>Sample Housing Form</h1>
+    <form action="/action_page.php">
+
+        <fieldset>
+            <label for="text">First Name</label><br>
+            <input type="text" id="fname" name="fname" value="First Name"><br>
+            <label for="text">Last name</label><br>
+            <input type="text" id="lname" name="lname" value="Last Name"><br><br>
+            <p>Sample subtitle text</p>
+
+            <label for="text">Date of Birth</label><br>
+            <input type="text" value="MM/DD/YYYY"><br>
+            <p>Date should be in MM/DD/YYYY format.</p>
+        </fieldset>
+
+        <fieldset>
+            <label for="text">Current living situation</label><br>
+            <p>Sample subtitle text</p>
+            <input type="checkbox">
+            <label for="opt1"> Non-housing</label><br>
+            <input type="checkbox">
+            <label for="opt2"> Emergency shelter</label><br>
+            <input type="checkbox">
+            <label for="opt3"> Transitional housing</label><br><br>
+        </fieldset>
+
+        <fieldset>
+            <label for="text">What kind of transportation do you use?</label><br>
+            <p>Sample subtitle text</p>
+            <input list="options">
+            <datalist id="options">
+    <option value="Bus">
+    <option value="Train">
+    <option value="Car">
+    <option value="Bike">
+    <option value="Uber">
+  </datalist>
+
+        </fieldset>
+
+        <fieldset>
+            <label for="text">What kind of transportation do you use?</label><br>
+            <p>Sample subtitle text</p>
+            <input type="radio"> Bus<br>
+            <input type="radio"> Train<br>
+            <input type="radio"> Car
+
+        </fieldset>
+
+
+
+
+
+
+</body>
+
+</html>
