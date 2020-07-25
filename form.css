@@ -46,6 +46,62 @@ body {
     border-radius: 4px;
 }
 
+.button {
+    position: absolute;
+    width: 122px;
+    height: 37px;
+    left: 100px;
+    right: 85.95%;
+    top: 6%;
+    bottom: 16.36%;
+    background: #FFFFFF;
+    /* Primary Purple */
+    border: 1px solid #7B81FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    color: #7B81FF;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button1 {
+    width: 122px;
+    height: 37px;
+    left: 100px;
+    right: 85.95%;
+    top: 6%;
+    bottom: 16.36%;
+    font-weight: 600;
+}
+
+.button2 {
+    width: 84px;
+    height: 37px;
+    left: 85.95%;
+    right: 100px;
+    top: 6%;
+    bottom: 16.36%;
+    font-weight: 600;
+}
+
+.button3 {
+    position: absolute;
+    width: 122px;
+    height: 37px;
+    left: 924px;
+    top: 1297px;
+    color: white;
+    font-weight: 600;
+    /* Primary Purple */
+    background: #7B81FF;
+    /* Primary Purple */
+    border: 1px solid #7B81FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 60px;
+}
+
 .btn-text {
     font-family: Inter;
     font-style: normal;
@@ -59,8 +115,8 @@ h1 {
     position: absolute;
     width: 318px;
     height: 36px;
-    left: 246px;
-    /* top: 154px; */
+    left: 236px;
+    top: 35px;
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -74,6 +130,18 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    /* identical to box height, or 231% */
+    /* Extended Purple */
+    color: #413F57;
+    margin-left: 36px;
+    margin-top: 18px;
+}
+
 label {
     font-weight: 600;
     font-size: 16px;
@@ -81,25 +149,17 @@ label {
     /* identical to box height, or 187% */
     /* Black */
     color: #212529;
+    position: absolute;
+    left: 36px;
+    margin-top: 12px;
 }
 
 fieldset1 {
     position: absolute;
     width: 766px;
-    height: 73px;
+    height: 105px;
     left: 280px;
-    top: 135px;
-    border: 1px solid #7B81FF;
-    box-sizing: border-box;
-    border-radius: 4px;
-}
-
-fieldset1 {
-    position: absolute;
-    width: 766px;
-    height: 73px;
-    left: 280px;
-    top: 135px;
+    top: 103px;
     border: 1px solid #7B81FF;
     box-sizing: border-box;
     border-radius: 4px;
@@ -149,9 +209,21 @@ fieldset5 {
     border-radius: 4px;
 }
 
+fieldset6 {
+    position: absolute;
+    width: 766px;
+    height: 254px;
+    left: 280px;
+    top: 979px;
+    border: 1px solid #7B81FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
 input {
     position: absolute;
     border: 1px solid #7B81FF;
     box-sizing: border-box;
     border-radius: 4px;
+    left: 36px;
 }
