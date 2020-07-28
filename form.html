@@ -24,27 +24,55 @@
     <form action="/action_page.php">
 
         <fieldset2>
-            <label for="text">Name</label><br>
-            <input type="text" id="fname" name="fname" value="First Name"><br>
-            <input type="text" id="lname" name="lname" value="Last Name"><br><br>
+            <label for="text">First Name</label><br>
             <p>Sample subtitle text</p>
-            <label for="text">Date of Birth</label><br>
-            <input type="text" value="MM/DD/YYYY"><br>
-            <p>Date should be in MM/DD/YYYY format.</p>
+
+            <input type="text" id="fname" name="fname" value="First Name"><br>
         </fieldset2>
 
         <fieldset3>
-            <label for="text">Current living situation</label><br>
+            <label for="text">Last Name</label><br>
             <p>Sample subtitle text</p>
-            <input type="checkbox">
-            <label for="opt1"> Non-housing</label><br>
-            <input type="checkbox">
-            <label for="opt2"> Emergency shelter</label><br>
-            <input type="checkbox">
-            <label for="opt3"> Transitional housing</label><br><br>
+
+            <input type="text" id="lname" name="lname" value="Last Name"><br><br>
         </fieldset3>
 
         <fieldset4>
+            <label for="text">Date of Birth</label><br>
+            <p>Date should be in MM/DD/YYYY format.</p>
+
+            <input type="date" value="Date"><br>
+
+
+        </fieldset4>
+
+        <fieldset5>
+            <label for="text">Current living situation</label><br>
+            <p>Sample subtitle text</p>
+            <label class="container">Non-housing
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+            <label class="container">Emergency shelter
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+            <label class="container">Transitional housing
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+            <label class="container">Other
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+        </fieldset5>
+
+        <fieldset6>
+            <label for="text">What kind of transportation do you use?</label><br>
+            <p>Sample subtitle text</p>
+        </fieldset6>
+
+        <fieldset7>
             <label for="text">What kind of transportation do you use?</label><br>
             <p>Sample subtitle text</p>
             <input list="options">
@@ -55,20 +83,39 @@
     <option value="Bike">
     <option value="Uber">
   </datalist>
+        </fieldset7>
 
-        </fieldset4>
-
-        <fieldset5>
-
-        </fieldset5>
-
-        <fieldset6>
+        <fieldset8>
             <label for="text">What kind of transportation do you use?</label><br>
             <p>Sample subtitle text</p>
-            <input type="radio"> Bus<br>
-            <input type="radio"> Train<br>
-            <input type="radio"> Car
-        </fieldset6>
+            <ul>
+                <li>
+                    <input type="radio" id="f-option" name="selector">
+                    <label for="f-option">Pizza</label>
+
+                    <div class="check"></div>
+                </li>
+
+                <li>
+                    <input type="radio" id="s-option" name="selector">
+                    <label for="s-option">Bacon</label>
+
+                    <div class="check">
+                        <div class="inside"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <input type="radio" id="t-option" name="selector">
+                    <label for="t-option">Cats</label>
+
+                    <div class="check">
+                        <div class="inside"></div>
+                    </div>
+                </li>
+            </ul>
+        </fieldset8>
+
 
 
 
